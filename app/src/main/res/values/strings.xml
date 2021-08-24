@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">SmartHomeManager</string>
+    <string name="btLight">light</string>
+    <string name="btKitchen">Kitchen</string>
+    <string name="btTodo">To-do</string>
+    <string name="btConditioning">Conditioning</string>
+    <string name="btStatistics">Statistics</string>
+    <string name="tvLightControl">Light Control</string>
+    <string name="swPower">Power off/on</string>
+    <string name="etValue">Current readings</string>
+    <string name="tvPower">220 V</string>
+    <string name="etData">Data</string>
+    <string name="tvAdd">+</string>
+    <string name="tvData">30/03/2021</string>
+    <string name="tvValue">06672</string>
+    <string name="etMin">min</string>
+    <string name="etSec">sec</string>
+    <string name="btStart">Start</string>
+    <string name="tvToDoList">To-Do List</string>
+    <string name="etToDo">To-Do</string>
+    <string name="tvToDo">Make Breakfast</string>
+    <string name="tvNumberToDo">1</string>
+    <string name="tvTemperature">24</string>
+    <string name="tvConditioning">Conditioning</string>
+
+</resources>

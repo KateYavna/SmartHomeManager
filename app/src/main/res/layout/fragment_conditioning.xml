@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ConditioningFragment">
+
+    <TextView
+        android:id="@+id/tvConditioning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="76dp"
+        android:text="@string/tvConditioning"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:gravity="center"
+        android:text="@string/tvTemperature"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/ibtMinus"
+        app:layout_constraintTop_toTopOf="@+id/ibtMinus" />
+
+    <ImageView
+        android:id="@+id/ivCelsius"
+        android:layout_width="23dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/celsius"
+        app:layout_constraintStart_toEndOf="@+id/tvTemperature"
+        app:layout_constraintTop_toTopOf="@+id/tvTemperature" />
+
+    <ImageButton
+        android:id="@+id/ibtMinus"
+        android:layout_width="43dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginLeft="109dp"
+        android:layout_marginBottom="384dp"
+        android:src="@android:drawable/arrow_down_float"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ibtPlus"
+        android:layout_width="41dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:src="@android:drawable/arrow_up_float"
+        app:layout_constraintStart_toEndOf="@+id/ivCelsius"
+        app:layout_constraintTop_toTopOf="@+id/ivCelsius" />
+
+    <TextView
+        android:id="@+id/tvPowerConditioning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/tvPower"
+        android:textColor="@color/red"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/tvConditioning"
+        app:layout_constraintStart_toStartOf="@+id/tvConditioning"
+        app:layout_constraintTop_toBottomOf="@+id/tvConditioning" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
